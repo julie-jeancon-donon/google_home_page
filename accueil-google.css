@@ -28,7 +28,7 @@ a:hover{
 }
 section{
   text-align: center;
-  margin-top: 180px;
+  margin-top: 200px;
 }
 
 footer a{
@@ -42,9 +42,60 @@ footer .first-footer{
   font-size: 14px;
 }
 
-  list-style-type: none;
+.form input{
+    width: 570px;
+    height: 42px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 0.3px;
+    border-color: #E5E5E5;
+    box-shadow: 0px 1.5px 2px #E3E2E2;
+    border-bottom-color: #CFCDCD;
 }
 
-form{
-  
+form input:focus{
+  width: 570px;
+  height: 42px;
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 0.3px;
+  border-color: #E5E5E5;
+  box-shadow: 0.5px 3px 6px #D4D2D2;
+  border-bottom-color: #CFCDCD;
+}
+
+form input:hover{
+  width: 570px;
+  height: 42px;
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 0.3px;
+  border-color: #E5E5E5;
+  box-shadow: 0.5px 3px 6px #D4D2D2;
+  border-bottom-color: #CFCDCD;
+}
+
+.search_buttons{
+  position: relative;
+  top: 30px;
+}
+
+.search_buttons input{
+	font:bold 13px Arial;
+  color: #757070;
+	background:#f5f5f5;
+	border-radius:2px;
+	width:145px;
+  height:37px;
+  border: none;
+}
+
+.search_buttons input:hover{
+	font:bold 13px Arial;
+  color: black;
+	background:#f5f5f5;
+	border-radius:2px;
+	width:145px;
+  height:37px;
+  border: 0.5px solid silver;
 }
